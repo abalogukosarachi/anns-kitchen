@@ -182,18 +182,18 @@ export default function Home() {
             <p className="text-lg text-[#4A4A4A] leading-relaxed">
               We believe that authentic food brings people together. Our mission is to deliver the warmth, flavour, and soul of Igbo cuisine directly to your table—homemade quality, every single time.
             </p>
-            <div className="grid grid-cols-3 gap-4 pt-8">
-              <div className="space-y-2">
-                <div className="text-3xl font-bold text-[#C84C1A]">100%</div>
-                <p className="text-sm text-[#4A4A4A]">Fresh Ingredients</p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 pt-12">
+              <div className="space-y-4 bg-gradient-to-br from-[#FBF8F3] to-[#F5EFE7] p-8 rounded-xl border border-[#E8DFD5]">
+                <div className="text-5xl md:text-6xl font-bold text-[#C84C1A]">100%</div>
+                <p className="text-base font-semibold text-[#1A1A1A]">Fresh Ingredients</p>
               </div>
-              <div className="space-y-2">
-                <div className="text-3xl font-bold text-[#C84C1A]">Homemade</div>
-                <p className="text-sm text-[#4A4A4A]">Traditional Recipes</p>
+              <div className="space-y-4 bg-gradient-to-br from-[#FBF8F3] to-[#F5EFE7] p-8 rounded-xl border border-[#E8DFD5]">
+                <div className="text-5xl md:text-6xl font-bold text-[#C84C1A]">Homemade</div>
+                <p className="text-base font-semibold text-[#1A1A1A]">Traditional Recipes</p>
               </div>
-              <div className="space-y-2">
-                <div className="text-3xl font-bold text-[#C84C1A]">Fast</div>
-                <p className="text-sm text-[#4A4A4A]">Quick Delivery</p>
+              <div className="space-y-4 bg-gradient-to-br from-[#FBF8F3] to-[#F5EFE7] p-8 rounded-xl border border-[#E8DFD5]">
+                <div className="text-5xl md:text-6xl font-bold text-[#C84C1A]">Fast</div>
+                <p className="text-base font-semibold text-[#1A1A1A]">Quick Delivery</p>
               </div>
             </div>
           </div>
